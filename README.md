@@ -49,7 +49,6 @@ type newPeople struct {
 type Gaga struct {
 
 	Name        string
-	
 	Age         float64
 	Sex         int8
 	Iif         bool
