@@ -24,6 +24,7 @@ type student struct {
 	SliceMap map[string][]string
 	StruceSlice []woman
 	StruceArray [5]woman
+	Woman       woman
 	
 }
 
