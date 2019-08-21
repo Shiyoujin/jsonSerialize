@@ -7,6 +7,7 @@ json序列化几乎支持所有的类型，遗憾的是，由于时间仓促，j
 2、json序列化支持类型 举例（未包含全）
 
 type student struct {
+
 	Name        string
 	Age         float32
 	Sex         int
@@ -24,24 +25,31 @@ type student struct {
 	SliceMap map[string][]string
 	StruceSlice []woman
 	StruceArray [5]woman
+	
 }
 
 type woman struct {
+
 	Man       string
 	StrArray  []string
 	StructMap map[string]newPeople
+	
 }
 
 type newPeople struct {
+
 	Nam       string
 	NewSlice  []string
 	NewStruct []map[string]string
+	
 }
 
 3、json反序列化支持的类型 举例
 
 type Gaga struct {
+
 	Name        string
+	
 	Age         float64
 	Sex         int8
 	Iif         bool
@@ -54,12 +62,15 @@ type Gaga struct {
 	MapSI       map[string]int
 	Youjin      Youjin
 	MapSlice    []map[string]string
+	
 }
 
 type Youjin struct {
+
 	Name string
 	Age  int
 	Yes  bool
+	
 }
 
 二、设计思路
