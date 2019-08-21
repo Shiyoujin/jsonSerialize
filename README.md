@@ -44,7 +44,7 @@ type newPeople struct {
 	
 }
 
-3、json反序列化支持的类型 举例
+3、json反序列化支持的类型 举例（同上）
 
 type Gaga struct {
 
